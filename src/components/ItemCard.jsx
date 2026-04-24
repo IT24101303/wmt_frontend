@@ -9,7 +9,7 @@ function ItemCard({ item, onDelete }) {
         className="card-image"
       />
       <h3>{item.name}</h3>
-      <p><strong>Serial Number:</strong> {item.serialnumber}</p>
+      <p><strong>Serial Number:</strong> {item.serialNumber}</p>
       <p><strong>Category:</strong> {item.category}</p>
       <p><strong>Price:</strong> ${item.price}</p>
       <p>{item.description}</p>
